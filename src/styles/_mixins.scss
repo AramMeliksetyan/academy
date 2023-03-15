@@ -1,0 +1,5 @@
+@mixin baseText($fs:15px,$fw:400,$ln:1.8) {
+    font-size: $fs;
+    font-weight: $fw;
+    line-height: $ln;
+}

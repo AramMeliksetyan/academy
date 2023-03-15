@@ -1,0 +1,16 @@
+@import "styles/variables" ;
+@import "styles/mixins";
+
+.main{
+    display: flex;
+    .brand-name {
+        @include baseText(38px,900,1);
+        color: map-get($colors, secondary-text-color);
+        text-transform: uppercase;
+        .sub {
+            font-size: 12px;
+            display: block;
+            letter-spacing: 2px;
+        }
+    }
+}
